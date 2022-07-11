@@ -1,0 +1,21 @@
+.bgimg-1 {
+    background-image: url(site2.jpg);
+    height: 100%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+  
+}
+div {
+    display: block;
+}
+.navbar a:hover {
+    background: #f1f1f1;
+    color: black;
+  }
+  
