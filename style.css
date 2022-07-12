@@ -1,21 +1,79 @@
-.bgimg-1 {
-    background-image: url(site2.jpg);
-    height: 100%;
-    position: relative;
+
+ .mainNav{
+    float:left;
+     
+     display: inline-block;
+ }
+ html {
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+ body {
+    
+    margin: 0;
+    background-image: url(page5.jpg);
+    height: 120%;
+    position: 0;
     background-position: center;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }
-body, html {
-    height: 100%;
+.num1 {
+  
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 5px 5px 5px aqua;
+    color: white;
+
+    animation: mySlide;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    
+    animation-timing-function: linear;
+    animation-duration: 10s;
+
+    
+}
+@keyframes mySlide{
+    from{margin-left: 100% ;}
+    to{margin-left: 0% ;}
+}
+
+ h2{
+     text-shadow: 5px 5px 5px aqua;
+     color: white;
+ }
+.navbar{
+    color:white;
+    
+}
+ul{
+    color: white;
+}
+li a{
+    color :azure;
+}
+#idPage2 {
+    
     margin: 0;
-  
+    background-image: url(pc1.jpg);
+    height: 120%;
+    position: 0;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-div {
-    display: block;
+
+#frame{
+    background-color: #cffaf1;
 }
-.navbar a:hover {
-    background: #f1f1f1;
-    color: black;
-  }
-  
+.button1{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    margin: 5px;
+}
